@@ -4,6 +4,7 @@
 <title>comfy-duplicate-model-roots · VIOLINET Tech</title>
 <meta name="description" content="Several ComfyUI launchers and package managers keep their own model-root list on top of extra_model_paths.yaml, and nothing warns you when the two disagree.">
 <meta property="og:title" content="comfy-duplicate-model-roots · VIOLINET Tech"><meta property="og:description" content="Several ComfyUI launchers and package managers keep their own model-root list on top of extra_model_paths.yaml, and nothing warns you when the two disagree.">
+<meta property="og:image" content="https://violinet-tech.github.io/comfy-duplicate-model-roots/cover.webp"><meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap">
 <style>
@@ -39,7 +40,7 @@ footer a{color:var(--orchid)}
 <p class="eyebrow">Agent skill</p>
 <h1>comfy-duplicate-model-roots</h1>
 <p class="lede">Find out which model folder ComfyUI is really using</p>
-<div class="card"><p>Several ComfyUI launchers and package managers keep their own model-root list on top of <code>extra_model_paths.yaml</code>, and nothing warns you when the two disagree. The result is slow startup, a model or LoRA browser that shows a handful of files instead of the library, or files with no previews. This skill diagnoses and fixes duplicate, empty and conflicting model roots.</p></div>
+<div class="card"><img class="cover" src="cover.webp" alt="A library hall with one shelf full of glowing books and one empty, and a librarian holding two index cards." loading="lazy"><p>Several ComfyUI launchers and package managers keep their own model-root list on top of <code>extra_model_paths.yaml</code>, and nothing warns you when the two disagree. The result is slow startup, a model or LoRA browser that shows a handful of files instead of the library, or files with no previews. This skill diagnoses and fixes duplicate, empty and conflicting model roots.</p></div>
 <div class="trig"><b>Use when:</b> a ComfyUI install is slow to start, a model/LoRA browser shows far fewer files than exist or has no previews, or models moved to a new drive and some "disappeared".</div>
 <h2>Install</h2>
 <div class="cmd"><span id="cmd">git clone https://github.com/Violinet-tech/comfy-duplicate-model-roots ~/.claude/skills/comfy-duplicate-model-roots</span><button type="button" onclick="navigator.clipboard.writeText(document.getElementById('cmd').textContent);this.textContent='Copied'">Copy</button></div>
